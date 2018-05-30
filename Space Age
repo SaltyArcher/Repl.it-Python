@@ -1,0 +1,30 @@
+age = int(input("Enter your age: "))
+EarYear = 1
+MerYear = .24
+VenYear = .61
+MarYear = 1.88
+JupYear = 11.86
+SatYear = 29.44
+UraYear = 84.01
+NepYear = 164.79
+
+MerAge = age / MerYear
+VenAge = age / VenYear
+MarAge = age / MarYear
+JupAge = age / JupYear
+SatAge = age / SatYear
+UraAge = age / UraYear
+NepAge = age / NepYear
+
+print("========================================================")
+print("Your age:", age)
+print("Your age on Mercury:",MerAge,"years old")
+print("Your age on Venus:",VenAge,"years old")
+print("Your age on Mars:",MarAge,"years old")
+print("Your age on Jupiter:",JupAge,"years old")
+print("Your age on Saturn:",SatAge,"years old")
+print("Your age on Uranus:",UraAge,"years old")
+print("Your age on Neptune:",NepAge,"years old")
+
+
+
