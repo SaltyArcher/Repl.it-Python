@@ -1,0 +1,9 @@
+def scoresIncreasing(scoresList):
+  # insert your logic here
+  i = False
+  for x in range(len(scoresList)-1):
+    if scoresList[x] <= scoresList[x+1]:
+      i = True
+    else:
+      return False
+  return i
