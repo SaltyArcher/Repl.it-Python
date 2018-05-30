@@ -1,0 +1,13 @@
+num = 0
+hallow = []
+for x in range(100):
+  num += 1
+  if(num % 3 == 0 and num % 5 == 0):
+    hallow.append("Trick or Treat!")
+  elif(num % 3 == 0):
+    hallow.append("Trick")
+  elif(num % 5 == 0):
+    hallow.append("Treat")
+  else:
+    hallow.append(num)
+print(hallow)
