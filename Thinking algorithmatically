@@ -1,0 +1,8 @@
+word = input("In: ")
+x = list("bcdfghjklmnpqrstvwxyz")
+num_of_cons = 0
+
+for i in word:
+  if i in x:
+    num_of_cons += 1
+print(num_of_cons)
