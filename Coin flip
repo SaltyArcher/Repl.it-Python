@@ -1,0 +1,14 @@
+import random
+flip = int(input('How many times do you want to flip a coin?\n'))
+heads = 0
+tails = 0
+for x in range(flip):
+  r = random.randrange(1,101)
+  if r > 50:
+    heads += 1
+  if r < 50:
+    tails += 1
+print ("Total Flips")
+print ("===========")
+print ("Heads: ", heads)
+print ("Tails: ", tails)
